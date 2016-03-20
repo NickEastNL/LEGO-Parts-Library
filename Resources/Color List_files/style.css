@@ -1,0 +1,171 @@
+/* tables */
+
+table.tablesorter {
+
+	font-family:tahoma;
+
+	background-color: #ffffff;
+
+	margin:10px 0pt 15px;
+
+	font-size: 9pt;
+
+	width: 100%;
+
+
+}
+
+
+/* table head */
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+
+	background-color: #b8cce4;
+
+	border: 1px solid #ffffff;
+
+	border-bottom: 2px solid #000;
+	font-size: 9pt;
+
+	padding: 4px;
+	text-align: left;
+}
+
+
+/* ? */
+table.tablesorter thead tr .header {
+
+/*  background-image: url(bg.gif); */
+	background-repeat: no-repeat;
+
+/*	background-position: bottom right; */
+
+	cursor: pointer;
+}
+
+/* body */
+table.tablesorter tbody td {
+	padding: 3px;
+}
+
+/* body (even) */
+tr.even td.col3,  tr.even td.col5,  tr.even td.col6,  tr.even td.col7,  tr.even td.col8,  tr.even td.col9,  tr.even td.col10,  tr.even td.col11,  tr.even td.col12,  tr.even td.col13,  tr.even td.col14,  tr.even td.col15, tr.even td.col16, tr.even td.col17, tr.even td.col18, tr.even td.col19,  tr.even td.col20,  tr.even td.col21,  tr.even td.col22,  tr.even td.col23,  tr.even td.col24 {
+
+	background-color: #fff;
+
+}
+
+
+
+/* body (odd) */
+tr.odd td.col3, tr.odd td.col5, tr.odd td.col6, tr.odd td.col7, tr.odd td.col8, tr.odd td.col9, tr.odd td.col10, tr.odd td.col11, tr.odd td.col12, tr.odd td.col13, tr.odd td.col14, tr.odd td.col15, tr.odd td.col16, tr.odd td.col17, tr.odd td.col18, tr.odd td.col19, tr.odd td.col20, tr.odd td.col21, tr.odd td.col22, tr.odd td.col23, tr.odd td.col24 {
+
+	background-color: #f2f2f2;
+
+}
+
+
+
+/* Lego ID/Name (even) */
+table.tablesorter tbody tr td.col1, table.tablesorter tbody tr td.col2 {
+
+	background-color: #dce6f1;
+
+}
+/* Lego ID/Name (odd) */
+table.tablesorter tbody tr.odd td.col1, table.tablesorter tbody tr.odd td.col2 {
+
+	background-color: #b8cce4;
+
+}
+
+
+table.tablesorter .tablesorter-headerAsc {
+
+	background-image: url(asc.gif);
+	background-position: center 0px;
+	background-color: #ccffcc;
+	color: #000000
+}
+
+
+table.tablesorter .tablesorter-headerDesc {
+
+	background-image: url(desc.gif);
+	background-position: center 0px;
+	background-color: #ccffcc;
+	color: #000000
+}
+
+/* body text-align */
+table.tablesorter tbody tr td.col2, table.tablesorter tbody tr td.col3, table.tablesorter tbody tr td.col7, table.tablesorter tbody tr td.col9, table.tablesorter tbody tr td.col10, table.tablesorter tbody tr td.col11, table.tablesorter tbody tr td.col12, table.tablesorter tbody tr td.col14, table.tablesorter tbody tr td.col15, {
+	text-align: left;
+}
+table.tablesorter tbody tr td.col1, table.tablesorter tbody tr td.col6, table.tablesorter tbody tr td.col8, table.tablesorter tbody tr td.col13 {
+	text-align: right;
+}
+table.tablesorter tbody tr td.col4, table.tablesorter tbody tr td.col5, table.tablesorter tbody tr td.col16, table.tablesorter tbody tr td.col17, table.tablesorter tbody tr td.col18, table.tablesorter tbody tr td.col19, table.tablesorter tbody tr td.col20, table.tablesorter tbody tr td.col21, table.tablesorter tbody tr td.col22, table.tablesorter tbody tr td.col23, table.tablesorter tbody tr td.col24 {
+	text-align: center;
+}
+
+#supplemental {
+	margin-right: 2em;
+	font: 1em "Open Sans", sans-serif;
+	color: #646464;
+}
+
+
+table.tablesorter tbody tr td.solid {
+	text-align: right;
+	background-color: #fde9d9;
+}
+table.tablesorter tbody tr td.transparent {
+	text-align: right;
+	background-color: #daeef3;
+}
+table.tablesorter tbody tr td.pearl {
+	text-align: right;
+	background-color: #ebf1de;
+}
+table.tablesorter tbody tr td.chrome {
+	text-align: right;
+	background-color: #e4dfec;
+}
+table.tablesorter tbody tr td.metallic {
+	text-align: right;
+	background-color: #f2dcdb;
+}
+table.tablesorter tbody tr td.milky {
+	text-align: right;
+	background-color: #dce6f1;
+}
+table.tablesorter tbody tr td.glitter {
+	text-align: right;
+	background-color: #ddd9c4;
+}
+table.tablesorter tbody tr td.speckle {
+	text-align: right;
+	background-color: #c5d9f1;
+}
+table.tablesorter tbody tr td.ink {
+	text-align: right;
+	background-color: #ffffff;
+}
+table.tablesorter tbody tr td.process {
+	text-align: right;
+	background-color: #ffffff;
+}
+table.tablesorter tbody tr td.modulex {
+	text-align: right;
+	background-color: #d9d9d9;
+}
+
+tr:hover td:not(.col4) {
+	background-color: lightcyan !important;
+}
+
+td a {
+	display: block;
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+}
