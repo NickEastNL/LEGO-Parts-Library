@@ -1,4 +1,4 @@
-<Categories>
+<Categories Lib="Default">
   <Category Name="Bricks" Path="Bricks">
     <Subcategory>
       <Name>Standard</Name>

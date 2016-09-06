@@ -1,0 +1,22 @@
+<Categories Lib="Default Rounded">
+  <Category Name="Bricks" Path="Bricks">
+    <Subcategory>
+      <Name>Standard</Name>
+      <Path>Standard</Path>
+    </Subcategory>
+	<Subcategory>
+	  <Name>Special</Name>
+	  <Path>Special</Path>
+	</Subcategory>
+  </Category>
+  <Category Name="Misc." Path="Misc">
+	<Subcategory>
+	  <Name>Antenna</Name>
+	  <Path>Antenna</Path>
+	</Subcategory>
+	<Subcategory>
+	  <Name>Dish</Name>
+	  <Path>Dish</Path>
+	</Subcategory>
+  </Category>
+</Categories>
