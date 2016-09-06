@@ -6,7 +6,7 @@ All parts are named using their official part IDs according to the LEGO Group an
 
 For easy assembly of the model in 3ds Max, there's a tool written using Maxscript and C# that uses this library to find and import the parts and assemble the model according to an LDraw file. The tool is going to be available shortly.
 
-The main library contains the parts as modeled using the LDraw library and optimized as much as possible. Various derived libraries will be created for various LOD levels and usages. All parts are sorted by major categories and single-level subcategories (these may not match (sub)categories from other catalogs).
+The default library (the `L_Default` folder) contains the parts as modeled using the LDraw library and optimized as much as possible. Other libraries might be created to sort parts for different purposes, such as LODs or off-line rendering. All parts are sorted by major categories and single-level subcategories (these may not match (sub)categories from other catalogs).
 
 ## Development
 This library was created for a personal project. Parts will only be added as I need them. I cannot comply to requests as I do not have the time to do so. If anyone wants to add parts to the library, it is of course allowed to fork the repository and offer push requests to update it. However, it also takes time to perform a quality check to ensure it is optimized properly and usable by the Importer, which again means I cannot comply to every request.
@@ -15,11 +15,11 @@ NOTE: Whenever a commit is titled "Added parts" or similar, one or more new part
 
 ## Usage
 Everyone may freely download and modify this library according to the GNU license. When using this library together with the 3ds Max LDraw Parser & Importer and the Parts Library Tool (released later), the following files are necessary:
-* categories.xml: Used by the Library Tool to create and sort (sub)categories and by the Importer to validate the library.
+* [Sub-library]/categories.xml: Used by the Library Tool to create and sort (sub)categories and by the Importer to validate the library.
 * parts.xml/.csv: A downloaded version of the parts catalog from Rebrickable or Bricklink to get the names.
 * Resources: This folder contains all material libraries used by the Importer to assign the correct colors. Also contains Photoshop swatches.
 
-DO NOT edit or move these files/folders when using either tool. It will cause errors.
+DO NOT edit or move these files/folders when using either tool. It will cause errors. Also do not change the folder names beginning with "L_" as these are the sub-libraries. Especially the "L_Default" folder should not be changed.
 
 ## Disclaimer
 This project is for non-commercial use only. The LEGO Group supports "Fair Play". DO NOT abuse this by misusing this library, or any reference to the LEGO brand, for commercial gain.
